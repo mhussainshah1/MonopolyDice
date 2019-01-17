@@ -20,10 +20,9 @@ package com.company;
  * DOUBLES!
  * Move 4 Spaces and roll again getting...
  * User rolls 1 & 1
- * DOUBLES
  * Move 2 Spaces and roll again getting...
  * User rolls 6 & 6
- * DOUBLES
+ * DOUBLES!
  * GO TO JAIL --->
  */
 public class Main {
