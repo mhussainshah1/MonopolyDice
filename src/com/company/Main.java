@@ -29,6 +29,23 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        int a ,b ,c = 0, counter = 0 ;
+        while(true){
+            a = 1+(int) (Math.random()*6);
+            b = 1+(int) (Math.random()*6);
+            System.out.println("User rolls " + a + " & " + b);
+            c = a + b;
+            if(a == b){
+                System.out.println("DOUBLES!");
+                if (counter++ < 2){
+                    System.out.println("Move " + c + " Spaces and roll again getting...");
+                } else {
+                    System.out.println("GO TO JAIL --->");
+                    break;
+                }
+            } else {
+                System.out.println("Move " + c + " Spaces and stop ");
+            }
+        }
     }
 }
