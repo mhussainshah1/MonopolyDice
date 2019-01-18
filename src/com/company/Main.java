@@ -43,7 +43,7 @@ public class Main {
             if(a == b){
                 System.out.println("DOUBLES!");
                 counter++;
-                if ( counter < 3){
+                if ( counter < 3){// counter value could be 1 and 2
                     System.out.println("Move " + c + " Spaces and roll again getting...");
                 } else {
                     System.out.println("GO TO JAIL --->");
